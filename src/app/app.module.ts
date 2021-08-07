@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FiltersComponent } from './components/menu/filters/filters.component';
 import { CartComponent } from './components/menu/cart/cart.component';
 import { ProductListComponent } from './components/menu/product-list/product-list.component';
+import { CartItemComponent } from './components/menu/cart/cart-item/cart-item.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProductListComponent } from './components/menu/product-list/product-lis
     MenuComponent,
     FiltersComponent,
     CartComponent,
-    ProductListComponent
+    ProductListComponent,
+    CartItemComponent
   ],
   imports: [
     BrowserModule,
