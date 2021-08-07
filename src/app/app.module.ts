@@ -9,6 +9,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FiltersComponent } from './components/menu/filters/filters.component';
 import { CartComponent } from './components/menu/cart/cart.component';
+import { ProductListComponent } from './components/menu/product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CartComponent } from './components/menu/cart/cart.component';
     NavComponent,
     MenuComponent,
     FiltersComponent,
-    CartComponent
+    CartComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
