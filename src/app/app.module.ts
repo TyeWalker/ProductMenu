@@ -8,6 +8,7 @@ import { NavComponent } from './components/shared/nav/nav.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FiltersComponent } from './components/menu/filters/filters.component';
+import { CartComponent } from './components/menu/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FiltersComponent } from './components/menu/filters/filters.component';
     FooterComponent,
     NavComponent,
     MenuComponent,
-    FiltersComponent
+    FiltersComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
