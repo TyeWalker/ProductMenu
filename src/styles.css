@@ -22,3 +22,7 @@
 .list-group-item:last-child{
     border-radius: 0;
 }
+
+.product-btn {
+    font-size: small;
+}
