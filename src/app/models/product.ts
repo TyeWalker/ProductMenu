@@ -7,7 +7,7 @@ export class Product {
     image: string;
 
     // Product Constructor:
-    constructor(id: number, name ='', description = '', price = 0, image = 'assets/cupcake-2.jpg') {
+    constructor(id: number, name ='', description = '', price = 0, image = '') {
         this.id = id
         this.name = name
         this.description = description
