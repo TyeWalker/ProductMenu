@@ -10,13 +10,14 @@
     <img class="bd-placeholder-img card-img-top" width="auto" height="auto" [src]="productItem.image" alt="Cupcake" />
 
     <div class="card-body">
-      <p class="card-text">{{ productItem.description }}</p>
-      <div class="d-flex justify-content-between align-items-center">
+      <p class="card-text" style="text-align: center;">{{ productItem.name }}</p>
+      <p style="text-align: center;">{{ productItem.description }}</p>
+      <p style="text-align: center;">{{ productItem.price | currency: "R" }}</p>
+      <div class="text-center">
         <div class="btn-group">
-          <button type="button" class="btn btn-sm btn-primary product-btn">Add to Cart</button>
-          <button type="button" class="btn btn-sm btn-secondary product-btn">View Details</button>
+          <button type="button" class="btn btn-sm btn-primary product-btn d-flex">Add to cart</button>
+          <button type="button" class="btn btn-sm btn-secondary product-btn d-flex">Ingredients</button>
         </div>
-        <strong>{{ productItem.price | currency: "R" }}</strong>
       </div>
     </div>
 </div>
